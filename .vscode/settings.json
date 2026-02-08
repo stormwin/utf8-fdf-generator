@@ -1,0 +1,27 @@
+{
+	// ESLint
+	"eslint.enable": true,
+	"eslint.validate": ["javascript"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+
+	// Editor
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.formatOnSave": false,
+
+	// Files
+	"files.eol": "\n",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+
+	// Spell Checker - add project-specific words
+	"cSpell.words": [
+		"fdf",
+		"pdftk",
+		"utf8",
+		"utf16"
+	]
+}

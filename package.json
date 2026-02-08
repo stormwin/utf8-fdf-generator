@@ -1,16 +1,51 @@
 {
-  "author": "Gabriel Medina <rha7.com@gmail.com>",
-  "name": "utf8-fdf-generator",
-  "description": "Generates FDF (PDF form input) files with UTF-8 support.",
-  "version": "0.0.4",
-  "keywords": [ "pdf", "fdf", "fill", "form", "generator" ],
-  "main": "./lib/generator.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Rhaseven7h/utf8-fdf-generator.git"
-  },
-  "engines": {
-    "node": "*"
-  }
+	"name": "utf8-fdf-generator",
+	"version": "1.0.0",
+	"description": "Generates FDF (PDF form input) files with full UTF-8/Unicode support",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./lib/generator.js"
+		}
+	},
+	"main": "./lib/generator.js",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"test": "node --test",
+		"test:watch": "node --test --watch",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"release": "./scripts/release.sh"
+	},
+	"keywords": [
+		"pdf",
+		"fdf",
+		"fill",
+		"form",
+		"generator",
+		"unicode",
+		"utf8",
+		"utf-8",
+		"utf16"
+	],
+	"author": "Vlado Velichkovski <v.velichkovski@outlook.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stormwin/utf8-fdf-generator.git"
+	},
+	"bugs": {
+		"url": "https://github.com/stormwin/utf8-fdf-generator/issues"
+	},
+	"homepage": "https://github.com/stormwin/utf8-fdf-generator#readme",
+	"engines": {
+		"node": ">=24.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.0.0"
+	},
+	"packageManager": "yarn@4.12.0"
 }

@@ -1,0 +1,21 @@
+{
+	"recommendations": [
+		// Linting & Formatting
+		"dbaeumer.vscode-eslint",
+		"editorconfig.editorconfig",
+
+		// Spell Checking
+		"streetsidesoftware.code-spell-checker",
+
+		// Git
+		"eamodio.gitlens",
+
+		// JavaScript/Node.js
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+
+		// Testing
+		"hbenl.vscode-test-explorer",
+		"connor4312.nodejs-testing"
+	]
+}
